@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "96D821C7-E1DE-4818-A81B-9D74AD0542E2",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true,
+    "uiTestingScreenshotsLifetime" : "keepNever",
+    "userAttachmentLifetime" : "keepNever"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:BigBurgerApple.xcodeproj",
+        "identifier" : "2AE72CAC28C7E16600FE50F3",
+        "name" : "BigBurgerTests"
+      }
+    }
+  ],
+  "version" : 1
+}

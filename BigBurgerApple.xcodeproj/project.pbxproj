@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A5CACF628C7E626002B8392 /* BaseXCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CACF528C7E626002B8392 /* BaseXCTestCase.swift */; };
+		2AE72CA128C7E16500FE50F3 /* BigBurgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE72CA028C7E16500FE50F3 /* BigBurgerApp.swift */; };
+		2AE72CA328C7E16500FE50F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE72CA228C7E16500FE50F3 /* ContentView.swift */; };
+		2AE72CA528C7E16600FE50F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE72CA428C7E16600FE50F3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AE72CAE28C7E16600FE50F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AE72C6528C7E12400FE50F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AE72C9D28C7E16500FE50F3;
+			remoteInfo = BigBurger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A5CACE928C7E422002B8392 /* DevelopmentConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DevelopmentConfig.xcconfig; sourceTree = "<group>"; };
+		2A5CACEA28C7E431002B8392 /* ProductionConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProductionConfig.xcconfig; sourceTree = "<group>"; };
+		2A5CACF528C7E626002B8392 /* BaseXCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXCTestCase.swift; sourceTree = "<group>"; };
+		2A5CACF828C7E702002B8392 /* Development.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Development.xctestplan; sourceTree = "<group>"; };
+		2AE72C9E28C7E16500FE50F3 /* BigBurger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBurger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE72CA028C7E16500FE50F3 /* BigBurgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerApp.swift; sourceTree = "<group>"; };
+		2AE72CA228C7E16500FE50F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AE72CA428C7E16600FE50F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AE72CAD28C7E16600FE50F3 /* BigBurgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigBurgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AE72C9B28C7E16500FE50F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE72CAA28C7E16600FE50F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A5CACE628C7E3C1002B8392 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				2A5CACE728C7E3CA002B8392 /* Configs */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		2A5CACE728C7E3CA002B8392 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				2A5CACE928C7E422002B8392 /* DevelopmentConfig.xcconfig */,
+				2A5CACEA28C7E431002B8392 /* ProductionConfig.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		2A5CACF128C7E57E002B8392 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2AE72CA428C7E16600FE50F3 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2A5CACF228C7E59B002B8392 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2AE72CA028C7E16500FE50F3 /* BigBurgerApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2A5CACF328C7E5AA002B8392 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AE72CA228C7E16500FE50F3 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A5CACF428C7E608002B8392 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2A5CACF528C7E626002B8392 /* BaseXCTestCase.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2A5CACF728C7E6DD002B8392 /* BigBurgerTestPlans */ = {
+			isa = PBXGroup;
+			children = (
+				2A5CACF828C7E702002B8392 /* Development.xctestplan */,
+			);
+			path = BigBurgerTestPlans;
+			sourceTree = "<group>";
+		};
+		2AE72C6428C7E12400FE50F3 = {
+			isa = PBXGroup;
+			children = (
+				2AE72C9F28C7E16500FE50F3 /* BigBurger */,
+				2A5CACF728C7E6DD002B8392 /* BigBurgerTestPlans */,
+				2AE72CB028C7E16600FE50F3 /* BigBurgerTests */,
+				2AE72C6E28C7E12400FE50F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AE72C6E28C7E12400FE50F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AE72C9E28C7E16500FE50F3 /* BigBurger.app */,
+				2AE72CAD28C7E16600FE50F3 /* BigBurgerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AE72C9F28C7E16500FE50F3 /* BigBurger */ = {
+			isa = PBXGroup;
+			children = (
+				2A5CACF128C7E57E002B8392 /* Assets */,
+				2A5CACE628C7E3C1002B8392 /* Configurations */,
+				2A5CACF228C7E59B002B8392 /* Main */,
+				2A5CACF328C7E5AA002B8392 /* Views */,
+			);
+			path = BigBurger;
+			sourceTree = "<group>";
+		};
+		2AE72CB028C7E16600FE50F3 /* BigBurgerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A5CACF428C7E608002B8392 /* Base */,
+			);
+			path = BigBurgerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AE72C9D28C7E16500FE50F3 /* BigBurger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE72CBF28C7E16600FE50F3 /* Build configuration list for PBXNativeTarget "BigBurger" */;
+			buildPhases = (
+				2AE72C9A28C7E16500FE50F3 /* Sources */,
+				2AE72C9B28C7E16500FE50F3 /* Frameworks */,
+				2AE72C9C28C7E16500FE50F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigBurger;
+			productName = BigBurger;
+			productReference = 2AE72C9E28C7E16500FE50F3 /* BigBurger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AE72CAC28C7E16600FE50F3 /* BigBurgerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE72CC228C7E16600FE50F3 /* Build configuration list for PBXNativeTarget "BigBurgerTests" */;
+			buildPhases = (
+				2AE72CA928C7E16600FE50F3 /* Sources */,
+				2AE72CAA28C7E16600FE50F3 /* Frameworks */,
+				2AE72CAB28C7E16600FE50F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AE72CAF28C7E16600FE50F3 /* PBXTargetDependency */,
+			);
+			name = BigBurgerTests;
+			productName = BigBurgerTests;
+			productReference = 2AE72CAD28C7E16600FE50F3 /* BigBurgerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AE72C6528C7E12400FE50F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2AE72C9D28C7E16500FE50F3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2AE72CAC28C7E16600FE50F3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2AE72C9D28C7E16500FE50F3;
+					};
+				};
+			};
+			buildConfigurationList = 2AE72C6828C7E12400FE50F3 /* Build configuration list for PBXProject "BigBurgerApple" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AE72C6428C7E12400FE50F3;
+			productRefGroup = 2AE72C6E28C7E12400FE50F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AE72C9D28C7E16500FE50F3 /* BigBurger */,
+				2AE72CAC28C7E16600FE50F3 /* BigBurgerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AE72C9C28C7E16500FE50F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE72CA528C7E16600FE50F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE72CAB28C7E16600FE50F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AE72C9A28C7E16500FE50F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE72CA328C7E16500FE50F3 /* ContentView.swift in Sources */,
+				2AE72CA128C7E16500FE50F3 /* BigBurgerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE72CA928C7E16600FE50F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5CACF628C7E626002B8392 /* BaseXCTestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AE72CAF28C7E16600FE50F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AE72C9D28C7E16500FE50F3 /* BigBurger */;
+			targetProxy = 2AE72CAE28C7E16600FE50F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A5CACEB28C7E483002B8392 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Production;
+		};
+		2A5CACEC28C7E483002B8392 /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5CACEA28C7E431002B8392 /* ProductionConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = P8UNJX8SHV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BigBurger;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RolandLariotte.BigBurger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Production;
+		};
+		2A5CACED28C7E483002B8392 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8UNJX8SHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RolandLariotte.BigBurgerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigBurger.app/BigBurger";
+			};
+			name = Production;
+		};
+		2A5CACEE28C7E48F002B8392 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEVELOPMENT;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Development;
+		};
+		2A5CACEF28C7E48F002B8392 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5CACE928C7E422002B8392 /* DevelopmentConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = P8UNJX8SHV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Develop;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RolandLariotte.BigBurger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEVELOP;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Development;
+		};
+		2A5CACF028C7E48F002B8392 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8UNJX8SHV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RolandLariotte.BigBurgerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigBurger.app/BigBurger";
+			};
+			name = Development;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AE72C6828C7E12400FE50F3 /* Build configuration list for PBXProject "BigBurgerApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5CACEE28C7E48F002B8392 /* Development */,
+				2A5CACEB28C7E483002B8392 /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2AE72CBF28C7E16600FE50F3 /* Build configuration list for PBXNativeTarget "BigBurger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5CACEF28C7E48F002B8392 /* Development */,
+				2A5CACEC28C7E483002B8392 /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2AE72CC228C7E16600FE50F3 /* Build configuration list for PBXNativeTarget "BigBurgerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5CACF028C7E48F002B8392 /* Development */,
+				2A5CACED28C7E483002B8392 /* Production */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AE72C6528C7E12400FE50F3 /* Project object */;
+}
