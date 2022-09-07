@@ -14,9 +14,15 @@ import SwiftUI
 /// the a sidebar navigation.
 struct ContentView: View {
 
+  @Environment(\.horizontalSizeClass) private var horizontalSizeClass
+
   var body: some View {
-    Text("BigBurger")
-      .padding()
+    if horizontalSizeClass == .compact {
+      TabBarView()
+    }
+    else {
+      SideBarView()
+    }
   }
 }
 
