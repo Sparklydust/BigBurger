@@ -12,7 +12,19 @@ import SwiftUI
 struct TabBarView: View {
 
   var body: some View {
-    Text("TabBarView")
+    TabView {
+      HomeView()
+        .tabItem {
+          Text("Home")
+          Image(systemName: "house")
+        }
+
+      CartView()
+        .tabItem {
+          Text("Cart")
+          Image(systemName: "cart")
+        }
+    }
   }
 }
 
