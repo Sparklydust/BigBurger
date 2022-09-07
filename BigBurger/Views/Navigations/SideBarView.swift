@@ -8,10 +8,49 @@
 import SwiftUI
 
 /// Sidebar items for iPadOS navigation.
+///
+/// SceneStorage is used for iPads navigations
+/// when multiple windows are opened.
 struct SideBarView: View {
 
+  @SceneStorage("selectedView")
+  var sideBarSelection: String?
+
+  // MARK: - Body
   var body: some View {
-    Text("SideBarView")
+    NavigationView {
+      sidebar
+
+      HomeView()
+    }
+  }
+
+  // MARK: - Sidebar
+  var sidebar: some View {
+    List(selection: $sideBarSelection) {
+
+      NavigationLink(destination: HomeView()) {
+        Label(
+          title: { Text("Home") },
+          icon: {
+            Image(systemName: "house")
+              .font(.headline)
+              .imageScale(.medium)
+          }
+        )
+      }
+
+      NavigationLink(destination: CartView()) {
+        Label(
+          title: { Text("Cart") },
+          icon: {
+            Image(systemName: "cart")
+              .font(.headline)
+              .imageScale(.medium)
+          }
+        )
+      }
+    }
   }
 }
 
