@@ -9,6 +9,20 @@
 /* Begin PBXBuildFile section */
 		2A28F6A128CA724B00AF021E /* BigBurgerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6A028CA724B00AF021E /* BigBurgerMain.swift */; };
 		2A28F6A328CA726F00AF021E /* BigBurgerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6A228CA726F00AF021E /* BigBurgerAppTests.swift */; };
+		2A28F6A828CA760700AF021E /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6A728CA760700AF021E /* ServerService.swift */; };
+		2A28F6AD28CA76DC00AF021E /* ServerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6AC28CA76DC00AF021E /* ServerProtocol.swift */; };
+		2A28F6B128CA771300AF021E /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6B028CA771300AF021E /* URLSessionProtocol.swift */; };
+		2A28F6B528CA77BB00AF021E /* BurgerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6B428CA77BB00AF021E /* BurgerData.swift */; };
+		2A28F6BC28CA7AA900AF021E /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6BB28CA7AA900AF021E /* ServerError.swift */; };
+		2A28F6BE28CA7AE800AF021E /* ServerEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6BD28CA7AE800AF021E /* ServerEndpoint.swift */; };
+		2A28F6C128CA7B3300AF021E /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6C028CA7B3300AF021E /* Bundle.swift */; };
+		2A28F6C728CA7C5400AF021E /* ServerEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6C628CA7C5400AF021E /* ServerEndpointTests.swift */; };
+		2A28F6CF28CA832E00AF021E /* JsonFileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6CE28CA832E00AF021E /* JsonFileName.swift */; };
+		2A28F6D128CA835C00AF021E /* BurgersData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A28F6D028CA835C00AF021E /* BurgersData.json */; };
+		2A28F6D428CA83C800AF021E /* BurgersDataFakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6D328CA83C800AF021E /* BurgersDataFakes.swift */; };
+		2A28F6D728CA865D00AF021E /* UnitTestsHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6D628CA865D00AF021E /* UnitTestsHelpers.swift */; };
+		2A28F6DC28CA874B00AF021E /* ServerSideServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6DB28CA874B00AF021E /* ServerSideServiceMock.swift */; };
+		2A28F6DE28CA893B00AF021E /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6DD28CA893B00AF021E /* URLSessionMock.swift */; };
 		2A5CACF628C7E626002B8392 /* BaseXCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CACF528C7E626002B8392 /* BaseXCTestCase.swift */; };
 		2A7376E628C9506C00E1CCCF /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7376E528C9506C00E1CCCF /* TabBarView.swift */; };
 		2A7376EB28C951A200E1CCCF /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7376EA28C951A200E1CCCF /* SideBarView.swift */; };
@@ -33,6 +47,21 @@
 		2A28F6A028CA724B00AF021E /* BigBurgerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerMain.swift; sourceTree = "<group>"; };
 		2A28F6A228CA726F00AF021E /* BigBurgerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerAppTests.swift; sourceTree = "<group>"; };
 		2A28F6A428CA74FB00AF021E /* Production.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Production.xctestplan; sourceTree = "<group>"; };
+		2A28F6A728CA760700AF021E /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
+		2A28F6AC28CA76DC00AF021E /* ServerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerProtocol.swift; sourceTree = "<group>"; };
+		2A28F6B028CA771300AF021E /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		2A28F6B428CA77BB00AF021E /* BurgerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerData.swift; sourceTree = "<group>"; };
+		2A28F6BB28CA7AA900AF021E /* ServerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
+		2A28F6BD28CA7AE800AF021E /* ServerEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerEndpoint.swift; sourceTree = "<group>"; };
+		2A28F6C028CA7B3300AF021E /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		2A28F6C628CA7C5400AF021E /* ServerEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerEndpointTests.swift; sourceTree = "<group>"; };
+		2A28F6C828CA811D00AF021E /* BigBurgerInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BigBurgerInfo.plist; sourceTree = "<group>"; };
+		2A28F6CE28CA832E00AF021E /* JsonFileName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonFileName.swift; sourceTree = "<group>"; };
+		2A28F6D028CA835C00AF021E /* BurgersData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BurgersData.json; sourceTree = "<group>"; };
+		2A28F6D328CA83C800AF021E /* BurgersDataFakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgersDataFakes.swift; sourceTree = "<group>"; };
+		2A28F6D628CA865D00AF021E /* UnitTestsHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsHelpers.swift; sourceTree = "<group>"; };
+		2A28F6DB28CA874B00AF021E /* ServerSideServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerSideServiceMock.swift; sourceTree = "<group>"; };
+		2A28F6DD28CA893B00AF021E /* URLSessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionMock.swift; sourceTree = "<group>"; };
 		2A5CACE928C7E422002B8392 /* DevelopmentConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DevelopmentConfig.xcconfig; sourceTree = "<group>"; };
 		2A5CACEA28C7E431002B8392 /* ProductionConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProductionConfig.xcconfig; sourceTree = "<group>"; };
 		2A5CACF528C7E626002B8392 /* BaseXCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXCTestCase.swift; sourceTree = "<group>"; };
@@ -66,10 +95,185 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A28F6A528CA75E900AF021E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6A628CA75F900AF021E /* Server */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2A28F6A628CA75F900AF021E /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6A728CA760700AF021E /* ServerService.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		2A28F6AA28CA76AC00AF021E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6AF28CA770900AF021E /* URLSession */,
+				2A28F6AB28CA76CE00AF021E /* Server */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2A28F6AB28CA76CE00AF021E /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6AC28CA76DC00AF021E /* ServerProtocol.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		2A28F6AF28CA770900AF021E /* URLSession */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6B028CA771300AF021E /* URLSessionProtocol.swift */,
+			);
+			path = URLSession;
+			sourceTree = "<group>";
+		};
+		2A28F6B228CA778E00AF021E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6B328CA779B00AF021E /* Data */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A28F6B328CA779B00AF021E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6B428CA77BB00AF021E /* BurgerData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2A28F6B628CA7A3200AF021E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6BD28CA7AE800AF021E /* ServerEndpoint.swift */,
+				2A28F6BB28CA7AA900AF021E /* ServerError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		2A28F6BF28CA7B1500AF021E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6C028CA7B3300AF021E /* Bundle.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A28F6C228CA7C1900AF021E /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6C428CA7C3800AF021E /* Enums */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		2A28F6C428CA7C3800AF021E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6C528CA7C3E00AF021E /* Server */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		2A28F6C528CA7C3E00AF021E /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6C628CA7C5400AF021E /* ServerEndpointTests.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		2A28F6C928CA816500AF021E /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6C828CA811D00AF021E /* BigBurgerInfo.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		2A28F6CB28CA82FA00AF021E /* Doubles */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6CC28CA830800AF021E /* Fakes */,
+				2A28F6D828CA872200AF021E /* Mocks */,
+			);
+			path = Doubles;
+			sourceTree = "<group>";
+		};
+		2A28F6CC28CA830800AF021E /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6CD28CA831400AF021E /* Jsons */,
+				2A28F6D228CA83B300AF021E /* Models */,
+			);
+			path = Fakes;
+			sourceTree = "<group>";
+		};
+		2A28F6CD28CA831400AF021E /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6CE28CA832E00AF021E /* JsonFileName.swift */,
+				2A28F6D028CA835C00AF021E /* BurgersData.json */,
+			);
+			path = Jsons;
+			sourceTree = "<group>";
+		};
+		2A28F6D228CA83B300AF021E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6D328CA83C800AF021E /* BurgersDataFakes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A28F6D528CA864400AF021E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6D628CA865D00AF021E /* UnitTestsHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2A28F6D828CA872200AF021E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6D928CA873200AF021E /* Services */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		2A28F6D928CA873200AF021E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6DA28CA873A00AF021E /* Server */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2A28F6DA28CA873A00AF021E /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				2A28F6DB28CA874B00AF021E /* ServerSideServiceMock.swift */,
+				2A28F6DD28CA893B00AF021E /* URLSessionMock.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
 		2A5CACE628C7E3C1002B8392 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
 				2A5CACE728C7E3CA002B8392 /* Configs */,
+				2A28F6C928CA816500AF021E /* InfoPlists */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
@@ -185,8 +389,13 @@
 			children = (
 				2A5CACF128C7E57E002B8392 /* Assets */,
 				2A5CACE628C7E3C1002B8392 /* Configurations */,
+				2A28F6B628CA7A3200AF021E /* Enums */,
+				2A28F6BF28CA7B1500AF021E /* Extensions */,
 				2A7376E728C950EF00E1CCCF /* Features */,
 				2A5CACF228C7E59B002B8392 /* Main */,
+				2A28F6B228CA778E00AF021E /* Models */,
+				2A28F6AA28CA76AC00AF021E /* Protocols */,
+				2A28F6A528CA75E900AF021E /* Services */,
 				2A5CACF328C7E5AA002B8392 /* Views */,
 			);
 			path = BigBurger;
@@ -196,6 +405,9 @@
 			isa = PBXGroup;
 			children = (
 				2A5CACF428C7E608002B8392 /* Base */,
+				2A28F6C228CA7C1900AF021E /* Cases */,
+				2A28F6CB28CA82FA00AF021E /* Doubles */,
+				2A28F6D528CA864400AF021E /* Helpers */,
 			);
 			path = BigBurgerTests;
 			sourceTree = "<group>";
@@ -289,6 +501,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A28F6D128CA835C00AF021E /* BurgersData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,13 +513,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A7376EF28C9532100E1CCCF /* CartView.swift in Sources */,
+				2A28F6C128CA7B3300AF021E /* Bundle.swift in Sources */,
 				2AE72CA328C7E16500FE50F3 /* ContentView.swift in Sources */,
 				2A28F6A128CA724B00AF021E /* BigBurgerMain.swift in Sources */,
 				2A7376EB28C951A200E1CCCF /* SideBarView.swift in Sources */,
+				2A28F6B528CA77BB00AF021E /* BurgerData.swift in Sources */,
 				2A7376E628C9506C00E1CCCF /* TabBarView.swift in Sources */,
+				2A28F6B128CA771300AF021E /* URLSessionProtocol.swift in Sources */,
 				2A7376ED28C952A900E1CCCF /* HomeView.swift in Sources */,
 				2AE72CA128C7E16500FE50F3 /* BigBurgerApp.swift in Sources */,
+				2A28F6BE28CA7AE800AF021E /* ServerEndpoint.swift in Sources */,
+				2A28F6AD28CA76DC00AF021E /* ServerProtocol.swift in Sources */,
 				2A28F6A328CA726F00AF021E /* BigBurgerAppTests.swift in Sources */,
+				2A28F6A828CA760700AF021E /* ServerService.swift in Sources */,
+				2A28F6BC28CA7AA900AF021E /* ServerError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +534,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A28F6CF28CA832E00AF021E /* JsonFileName.swift in Sources */,
 				2A5CACF628C7E626002B8392 /* BaseXCTestCase.swift in Sources */,
+				2A28F6D728CA865D00AF021E /* UnitTestsHelpers.swift in Sources */,
+				2A28F6DC28CA874B00AF021E /* ServerSideServiceMock.swift in Sources */,
+				2A28F6C728CA7C5400AF021E /* ServerEndpointTests.swift in Sources */,
+				2A28F6D428CA83C800AF021E /* BurgersDataFakes.swift in Sources */,
+				2A28F6DE28CA893B00AF021E /* URLSessionMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +621,8 @@
 				DEVELOPMENT_TEAM = P8UNJX8SHV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = BigBurger;
+				INFOPLIST_FILE = BigBurger/Configurations/InfoPlists/BigBurgerInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Develop;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -506,6 +733,7 @@
 				DEVELOPMENT_TEAM = P8UNJX8SHV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BigBurger/Configurations/InfoPlists/BigBurgerInfo.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Develop;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
