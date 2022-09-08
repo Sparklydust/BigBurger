@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A28F6A128CA724B00AF021E /* BigBurgerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6A028CA724B00AF021E /* BigBurgerMain.swift */; };
+		2A28F6A328CA726F00AF021E /* BigBurgerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6A228CA726F00AF021E /* BigBurgerAppTests.swift */; };
 		2A5CACF628C7E626002B8392 /* BaseXCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CACF528C7E626002B8392 /* BaseXCTestCase.swift */; };
 		2A7376E628C9506C00E1CCCF /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7376E528C9506C00E1CCCF /* TabBarView.swift */; };
 		2A7376EB28C951A200E1CCCF /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7376EA28C951A200E1CCCF /* SideBarView.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A28F6A028CA724B00AF021E /* BigBurgerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerMain.swift; sourceTree = "<group>"; };
+		2A28F6A228CA726F00AF021E /* BigBurgerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerAppTests.swift; sourceTree = "<group>"; };
 		2A5CACE928C7E422002B8392 /* DevelopmentConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DevelopmentConfig.xcconfig; sourceTree = "<group>"; };
 		2A5CACEA28C7E431002B8392 /* ProductionConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProductionConfig.xcconfig; sourceTree = "<group>"; };
 		2A5CACF528C7E626002B8392 /* BaseXCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXCTestCase.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				2AE72CA028C7E16500FE50F3 /* BigBurgerApp.swift */,
+				2A28F6A228CA726F00AF021E /* BigBurgerAppTests.swift */,
+				2A28F6A028CA724B00AF021E /* BigBurgerMain.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -293,10 +299,12 @@
 			files = (
 				2A7376EF28C9532100E1CCCF /* CartView.swift in Sources */,
 				2AE72CA328C7E16500FE50F3 /* ContentView.swift in Sources */,
+				2A28F6A128CA724B00AF021E /* BigBurgerMain.swift in Sources */,
 				2A7376EB28C951A200E1CCCF /* SideBarView.swift in Sources */,
 				2A7376E628C9506C00E1CCCF /* TabBarView.swift in Sources */,
 				2A7376ED28C952A900E1CCCF /* HomeView.swift in Sources */,
 				2AE72CA128C7E16500FE50F3 /* BigBurgerApp.swift in Sources */,
+				2A28F6A328CA726F00AF021E /* BigBurgerAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
