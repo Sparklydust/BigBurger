@@ -32,6 +32,7 @@
 /* Begin PBXFileReference section */
 		2A28F6A028CA724B00AF021E /* BigBurgerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerMain.swift; sourceTree = "<group>"; };
 		2A28F6A228CA726F00AF021E /* BigBurgerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerAppTests.swift; sourceTree = "<group>"; };
+		2A28F6A428CA74FB00AF021E /* Production.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Production.xctestplan; sourceTree = "<group>"; };
 		2A5CACE928C7E422002B8392 /* DevelopmentConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DevelopmentConfig.xcconfig; sourceTree = "<group>"; };
 		2A5CACEA28C7E431002B8392 /* ProductionConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProductionConfig.xcconfig; sourceTree = "<group>"; };
 		2A5CACF528C7E626002B8392 /* BaseXCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseXCTestCase.swift; sourceTree = "<group>"; };
@@ -120,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				2A5CACF828C7E702002B8392 /* Development.xctestplan */,
+				2A28F6A428CA74FB00AF021E /* Production.xctestplan */,
 			);
 			path = BigBurgerTestPlans;
 			sourceTree = "<group>";
