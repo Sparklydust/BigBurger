@@ -6,7 +6,6 @@
 //
 
 import Foundation
-@testable import BigBurger
 
 // MARK: - BigBurgerData
 extension BurgerData {

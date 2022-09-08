@@ -15,9 +15,6 @@ struct HomeView: View {
 
   var body: some View {
     ZStack {
-      VStack {
-        Text("HomeView")
-      }
 
       MainProgressView(isAnimating: vm.isLoading)
     }
