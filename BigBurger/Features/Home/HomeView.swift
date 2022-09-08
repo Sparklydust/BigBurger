@@ -11,8 +11,23 @@ import SwiftUI
 /// a list of burgers.
 struct HomeView: View {
 
+  @StateObject var vm = HomeViewModel()
+
   var body: some View {
-    Text("HomeView")
+    ZStack {
+      VStack {
+        Text("HomeView")
+      }
+
+      MainProgressView(isAnimating: vm.isLoading)
+    }
+    .task { await vm.getBurgersCatalog() }
+    .alert(
+      vm.homeAlert.title,
+      isPresented: $vm.showAlert,
+      actions: {},
+      message: { Text(vm.homeAlert.message) }
+    )
   }
 }
 

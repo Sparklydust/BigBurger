@@ -1,0 +1,34 @@
+{
+  "configurations" : [
+    {
+      "id" : "D7FF43D8-20BF-4351-A087-67CDD91C8E1C",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "addressSanitizer" : {
+      "enabled" : true
+    },
+    "codeCoverage" : false,
+    "mallocScribbleEnabled" : true,
+    "nsZombieEnabled" : true,
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true,
+    "uiTestingScreenshotsLifetime" : "keepNever",
+    "undefinedBehaviorSanitizerEnabled" : true,
+    "userAttachmentLifetime" : "keepNever"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:BigBurgerApple.xcodeproj",
+        "identifier" : "2AE72CAC28C7E16600FE50F3",
+        "name" : "BigBurgerTests"
+      }
+    }
+  ],
+  "version" : 1
+}
