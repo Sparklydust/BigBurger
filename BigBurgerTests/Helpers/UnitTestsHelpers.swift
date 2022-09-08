@@ -7,6 +7,7 @@
 
 import Foundation
 import XCTest
+@testable import BigBurger
 
 // MARK: - Data+JsonFile
 extension XCTestCase {
@@ -35,5 +36,45 @@ extension XCTestCase {
       statusCode: code,
       httpVersion: .none,
       headerFields: .none)!
+  }
+}
+
+// MARK: - URLSessionMock+Setup
+extension XCTestCase {
+
+  /// Mock a server call with all needed parameters to
+  /// create a fake api call response for ``ServerServiceMock``.
+  /// ```swift
+  /// // example of use to fake an api response in a test.
+  /// sut.serverService = try serverServiceMock(
+  ///   .burgersCatalog,
+  ///   response: 500,
+  ///   error: .fake()
+  /// )
+  /// ```
+  /// - Parameters:
+  ///   - data: The fake data that is expected to come back from the
+  ///   fake api call for tests, found in the `JsonFileName.swift` file.
+  ///   as a result of the fake api call.
+  ///   - response: The fake api response that is needed for the Unit Tests.
+  ///   - error: A fake ``ServerError`` if needed to test an error from a server response.
+  /// - Returns: A fake ``ServerServiceMock`` to initialized a `sut.serverService`
+  /// object for faking a server call response for unit tests.
+  func serverServiceMock(
+    _ data: JsonFileName,
+    response: Int,
+    error: ServerError? = .none
+  ) throws -> ServerServiceMock {
+
+    let data = try json(fake: data)
+    let response = status(code: response)
+
+    let urlSessionMock = URLSessionMock(
+      data: data,
+      response: response,
+      error: error
+    )
+
+    return ServerServiceMock(urlSession: urlSessionMock)
   }
 }
