@@ -32,7 +32,7 @@ struct BurgerLargeCell: View {
       }
       Spacer()
     }
-    .frame(height: 120)
+    .frame(minHeight: 120)
   }
 }
 
