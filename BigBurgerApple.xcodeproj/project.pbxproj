@@ -30,7 +30,6 @@
 		2A28F6F228CA972D00AF021E /* MainProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6F128CA972D00AF021E /* MainProgressView.swift */; };
 		2A28F6F428CA976F00AF021E /* Color+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6F328CA976F00AF021E /* Color+Names.swift */; };
 		2A28F6F728CAA31C00AF021E /* BurgerLargeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6F628CAA31C00AF021E /* BurgerLargeCell.swift */; };
-		2A28F6F828CAA41200AF021E /* BurgersDataFakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A28F6D328CA83C800AF021E /* BurgersDataFakes.swift */; };
 		2A5CACF628C7E626002B8392 /* BaseXCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5CACF528C7E626002B8392 /* BaseXCTestCase.swift */; };
 		2A7376E628C9506C00E1CCCF /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7376E528C9506C00E1CCCF /* TabBarView.swift */; };
 		2A7376EB28C951A200E1CCCF /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7376EA28C951A200E1CCCF /* SideBarView.swift */; };
@@ -38,6 +37,7 @@
 		2A7376EF28C9532100E1CCCF /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7376EE28C9532100E1CCCF /* CartView.swift */; };
 		2A79A36C28CAA88F00E96783 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A36B28CAA88F00E96783 /* AsyncImageView.swift */; };
 		2A79A36F28CAAF4300E96783 /* PriceCardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A36E28CAAF4300E96783 /* PriceCardButton.swift */; };
+		2A79A37528CAB98200E96783 /* BurgerDataFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79A37428CAB98200E96783 /* BurgerDataFixture.swift */; };
 		2AE72CA128C7E16500FE50F3 /* BigBurgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE72CA028C7E16500FE50F3 /* BigBurgerApp.swift */; };
 		2AE72CA328C7E16500FE50F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE72CA228C7E16500FE50F3 /* ContentView.swift */; };
 		2AE72CA528C7E16600FE50F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE72CA428C7E16600FE50F3 /* Assets.xcassets */; };
@@ -89,6 +89,7 @@
 		2A7376EE28C9532100E1CCCF /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		2A79A36B28CAA88F00E96783 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		2A79A36E28CAAF4300E96783 /* PriceCardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCardButton.swift; sourceTree = "<group>"; };
+		2A79A37428CAB98200E96783 /* BurgerDataFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerDataFixture.swift; sourceTree = "<group>"; };
 		2AE72C9E28C7E16500FE50F3 /* BigBurger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBurger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE72CA028C7E16500FE50F3 /* BigBurgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBurgerApp.swift; sourceTree = "<group>"; };
 		2AE72CA228C7E16500FE50F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -465,6 +466,22 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		2A79A37228CAB91300E96783 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2A79A37328CAB96200E96783 /* Fixtures */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2A79A37328CAB96200E96783 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				2A79A37428CAB98200E96783 /* BurgerDataFixture.swift */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
 		2AE72C6428C7E12400FE50F3 = {
 			isa = PBXGroup;
 			children = (
@@ -496,6 +513,7 @@
 				2A28F6B228CA778E00AF021E /* Models */,
 				2A28F6AA28CA76AC00AF021E /* Protocols */,
 				2A28F6A528CA75E900AF021E /* Services */,
+				2A79A37228CAB91300E96783 /* Tools */,
 				2A5CACF328C7E5AA002B8392 /* Views */,
 			);
 			path = BigBurger;
@@ -626,12 +644,12 @@
 				2A28F6F728CAA31C00AF021E /* BurgerLargeCell.swift in Sources */,
 				2A7376E628C9506C00E1CCCF /* TabBarView.swift in Sources */,
 				2A28F6EE28CA952B00AF021E /* HomeAlert.swift in Sources */,
+				2A79A37528CAB98200E96783 /* BurgerDataFixture.swift in Sources */,
 				2A28F6B128CA771300AF021E /* URLSessionProtocol.swift in Sources */,
 				2A7376ED28C952A900E1CCCF /* HomeView.swift in Sources */,
 				2AE72CA128C7E16500FE50F3 /* BigBurgerApp.swift in Sources */,
 				2A28F6BE28CA7AE800AF021E /* ServerEndpoint.swift in Sources */,
 				2A28F6AD28CA76DC00AF021E /* ServerProtocol.swift in Sources */,
-				2A28F6F828CAA41200AF021E /* BurgersDataFakes.swift in Sources */,
 				2A28F6A328CA726F00AF021E /* BigBurgerAppTests.swift in Sources */,
 				2A28F6A828CA760700AF021E /* ServerService.swift in Sources */,
 				2A28F6F428CA976F00AF021E /* Color+Names.swift in Sources */,

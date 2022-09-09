@@ -18,7 +18,6 @@ struct BurgerLargeCell: View {
     HStack(spacing: 4) {
 
       AsyncImageView(imageURL: burger.imageURL)
-        .padding(.leading, 8)
 
       VStack(alignment: .leading, spacing: 4) {
         Text(burger.name)
@@ -33,7 +32,7 @@ struct BurgerLargeCell: View {
       }
       Spacer()
     }
-    .frame(width: 400, height: 120)
+    .frame(height: 120)
   }
 }
 
@@ -41,9 +40,9 @@ struct BurgerLargeCell_Previews: PreviewProvider {
 
   static var previews: some View {
     Group {
-      BurgerLargeCell(burger: .init(data: .fake()), action: {})
+      BurgerLargeCell(burger: .init(data: .fixture()), action: {})
 
-      BurgerLargeCell(burger: .init(data: .fake()), action: {})
+      BurgerLargeCell(burger: .init(data: .fixture()), action: {})
         .preferredColorScheme(.dark)
     }
     .padding()

@@ -1,18 +1,15 @@
 //
-//  BurgersDataFakes.swift
-//  BigBurgerTests
+//  BurgerDataFixture.swift
+//  BigBurger
 //
-//  Created by Roland Lariotte on 08/09/2022.
+//  Created by Roland Lariotte on 09/09/2022.
 //
-
-import Foundation
-@testable import BigBurger
 
 // MARK: - BigBurgerData
 extension BurgerData {
 
-  /// Fake data for unit tests.
-  static func fake(
+  /// Fixture data for SwiftUI previews.
+  static func fixture(
     id: String = "2",
     name: String = "The Big Cheese Burger",
     description: String = "It is always tastier with cheese.",

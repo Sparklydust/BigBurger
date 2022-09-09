@@ -23,7 +23,7 @@ enum ServerEndpoint {
   var url: URL {
     switch self {
       case .burgersCatalog:
-        return urlPath(to: "catalog")
+        return urlPath(to: "bigburger")
     }
   }
 }
