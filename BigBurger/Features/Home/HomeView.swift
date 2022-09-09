@@ -14,20 +14,25 @@ struct HomeView: View {
   @StateObject var vm = HomeViewModel()
 
   var body: some View {
-    ZStack {
-      VStack {
-        Text("HomeView")
-      }
+    NavigationView {
+      ZStack {
 
-      MainProgressView(isAnimating: vm.isLoading)
+        List(vm.burgersCatalog, id: \.id) { burger in
+          BurgerLargeCell(burger: burger, action: {})
+            .buttonStyle(.plain)
+        }
+
+        MainProgressView(isAnimating: vm.isLoading)
+      }
+      .navigationTitle("Home")
+      .task { await vm.getBurgersCatalog() }
+      .alert(
+        vm.homeAlert.title,
+        isPresented: $vm.showAlert,
+        actions: {},
+        message: { Text(vm.homeAlert.message) }
+      )
     }
-    .task { await vm.getBurgersCatalog() }
-    .alert(
-      vm.homeAlert.title,
-      isPresented: $vm.showAlert,
-      actions: {},
-      message: { Text(vm.homeAlert.message) }
-    )
   }
 }
 

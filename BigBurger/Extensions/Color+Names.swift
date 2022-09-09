@@ -1,5 +1,5 @@
 //
-//  Color+Name.swift
+//  Color+Names.swift
 //  BigBurger
 //
 //  Created by Roland Lariotte on 08/09/2022.

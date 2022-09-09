@@ -11,8 +11,8 @@ import XCTest
 class ServerEndpointTests: XCTestCase {
 
   // MARK: Burgers Catalog
-  func testBurgersCatalog_burgersCatalogURL_returnssignUpPasskeyEndpointURL() {
-    let expected = URL(string: "https://bigburger.useradgents.com/catalog")!
+  func testBurgersCatalog_burgersCatalogURL_returnsUADDotIODashBigBurger() {
+    let expected = URL(string: "https://uad.io/bigburger")!
 
     let result = ServerEndpoint.burgersCatalog.url
 

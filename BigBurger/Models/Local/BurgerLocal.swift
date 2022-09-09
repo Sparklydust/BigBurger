@@ -22,7 +22,6 @@ struct BurgerLocal {
     self.name = data.name
     self.description = data.description
     self.imageURL = data.imageURL
-    self.price = data.unformattedPrice
-      .formatted(.currency(code: "EUR"))
+    self.price = String(data.unformattedPrice)
   }
 }

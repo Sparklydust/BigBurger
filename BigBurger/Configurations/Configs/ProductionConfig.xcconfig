@@ -9,4 +9,4 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 /// Entry point for the BigBurgerServer in production.
-BIGBURGER_SERVER_BASE_URL = https:/$()/bigburger.useradgents.com/
+BIGBURGER_SERVER_BASE_URL = https:/$()/uad.io/
