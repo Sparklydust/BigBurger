@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-@main
+/// Main entry point at BigBurger application startup.
 struct BigBurgerApp: App {
 
   var body: some Scene {

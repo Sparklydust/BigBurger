@@ -15,13 +15,18 @@ import XCTest
 /// mocks, spies and fake data.
 class BaseXCTestCase: XCTestCase {
 
+  var urlSessionMock: URLSessionMock!
+  var serverServiceMock: ServerServiceMock!
+
   override func setUpWithError() throws {
     try super.setUpWithError()
-    // Intentionally empty
+    urlSessionMock = URLSessionMock()
+    serverServiceMock = ServerServiceMock(urlSession: urlSessionMock)
   }
 
   override func tearDownWithError() throws {
+    serverServiceMock = .none
+    urlSessionMock = .none
     try super.tearDownWithError()
-    // Intentionally empty
   }
 }
