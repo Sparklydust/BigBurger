@@ -1,0 +1,31 @@
+[
+  {
+    "ref": "1",
+    "title": "The Big Burger",
+    "description": "Un classique mais tellement bon.",
+    "thumbnail": "https://bigburger.useradgents.com/images/1.png",
+    "price": 820
+  },
+  {
+    "ref": "2",
+    "title": "The Big Cheese Burger",
+    "description": "Avec du fromage c'est toujours meilleur.",
+    "thumbnail": "https://bigburger.useradgents.com/images/2.png",
+    "price": 830
+  },
+  {
+    "ref": "3",
+    "title": "The Big Bacon Burger",
+    "description": "C'est comme le The Big Cheese Burger mais, avec du bacon en plus. Irrésistible!",
+    "thumbnail": "https://bigburger.useradgents.com/images/3.png",
+    "price": 885
+
+  },
+  {
+    "ref": "4",
+    "title": "The Big Chiken Burger",
+    "description": "C'est comme le The Big Cheese Burger mais, du poulet frit à la place du steak-haché. Succulent!",
+    "thumbnail": "https://bigburger.useradgents.com/images/4.png",
+    "price": 810
+  }
+]
